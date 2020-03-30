@@ -1,4 +1,5 @@
 <?php
+$spojeni = 'config.php';
 $username = ($_POST["jmeno"]); 
 $heslo = ($_POST["heslo"]);
 
@@ -14,7 +15,7 @@ else if(empty($heslo))
 }
 else
 {
-	$spojeni = mysqli_connect("localhost", "bohac", "55555", "6ep_bohac");
+	
 	
 	$dotaz = "SELECT * FROM uzivatel WHERE jmeno = '$jmeno'";
 	

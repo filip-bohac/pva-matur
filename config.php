@@ -1,6 +1,3 @@
 <?php
-"localhost"
-"bohac"
-"55555"
-"6ep_bohac"
+$spojeni = mysqli_connect("localhost", "bohac", "55555", "6ep_bohac");
 ?>
