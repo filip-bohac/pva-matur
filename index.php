@@ -22,9 +22,9 @@
 <h1>Přihlášení</h1>
 
 <form action="prihlasit.php" method="post">
-    <input type="text" name="html_username" placeholder="Username"/><br/>
-    <input type="password" name="html_heslo" placeholder="Heslo" /><br />
-    <input type="submit" value="Prihlasit" /><br/>
+    <input type="text" name="jmeno" placeholder="Username"/><br/>
+    <input type="password" name="heslo" placeholder="Heslo" /><br />
+    <input type="submit" value="Přihlásit" /><br/>
 </form>
 
 </body>
