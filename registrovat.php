@@ -30,14 +30,14 @@ else
 
 	$radek = mysqli_fetch_assoc($vysledek);
 
-	if($username == $radek["jmeno"])
+	if($username == $radek["jmeno"] && $mail!=$radek["mail"])
 	{
 		header("location:./index.php");	
 		
 	}
 	
 	
-	else if (sizeof($radek) == 0 && $mail!=$radek["mail"])
+	else if (sizeof($radek) == 0 )
 	{
 	
 	
